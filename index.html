@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>My To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Add new task..." />
+    <div class="button-group">
+      <button class="btn btn-purple" onclick="addTask()">Add</button>
+      <button class="btn btn-purple" onclick="deleteAllTasks()">Delete All</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="brain.js"></script>
+</body>
+</html>
